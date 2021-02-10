@@ -1,0 +1,19 @@
+{
+  name: "hello"
+  entries: [
+    {
+      name: testSuite1
+      desc: '''test suite #1
+            - just run tb'''
+      milestone: V1
+      tests: ["smoke1" "smoke2"]
+    }
+    {
+      name: testSuite2
+      desc: '''test suite #2
+            - just run tb'''
+      milestone: V2
+      tests: ["smoke1" "fire1" "fire2" ]
+    }
+  ]
+}

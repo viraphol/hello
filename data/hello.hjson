@@ -1,0 +1,11 @@
+{
+  name: "hello",
+  param_list: [
+  ],
+  inter_signal_list: [
+  ],
+  alert_list: [
+  ],
+  registers: [
+  ],
+}

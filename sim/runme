@@ -1,0 +1,24 @@
+#!/bin/bash -x
+
+export REPO_TOP=/home/viraphol/prj/siliconforge
+PROJ_TOP=$REPO_TOP
+
+VF=$REPO_TOP/bin/VeriForge
+LF=$REPO_TOP/bin/LintForge
+
+# uncomment to run xsim/vivado
+# $VF --proj-root $PROJ_TOP/tests/simple $PROJ_TOP/tests/simple/designs/hello/dv/hello_sim_cfg_xsim.hjson
+
+# run xsim and publish
+#$VF --publish --proj-root $PROJ_TOP/tests/simple --verbose=debug $PROJ_TOP/tests/simple/designs/hello/dv/hello_sim_cfg_xsim.hjson
+
+# run xsim with debugging message
+$VF --proj-root $PROJ_TOP/tests/simple --verbose=debug $PROJ_TOP/tests/simple/designs/hello/dv/hello_sim_cfg_xsim.hjson
+
+# run verialtor
+#$VF --proj-root $PROJ_TOP/tests/simple $PROJ_TOP/tests/simple/designs/hello/dv/hello_sim_cfg_verilator.hjson
+
+# run verilator with debugging message
+# $VF --proj-root $PROJ_TOP/tests/simple --verbose=debug $PROJ_TOP/tests/simple/designs/hello/dv/hello_sim_cfg_verilator.hjson
+
+
