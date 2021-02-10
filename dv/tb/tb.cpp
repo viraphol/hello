@@ -5,7 +5,7 @@ int main(int argc, char** argv, char** env) {
     Verilated::commandArgs(argc, argv);
     Vhello* top = new Vhello;
 
-    printf("Hello TB 0-r1\n");
+    printf("Hello TB git-r1\n");
     while (!Verilated::gotFinish()) {
         top->eval();
     }
