@@ -20,19 +20,32 @@
   // Import additional common xsim cfg files.
   import_cfgs: [ "{proj_root}/configs/tools/xsim.hjson"] 
 
+  build_modes: [
+    {
+        name: base_test
+        build_opts: ["{tb}"]
+    }
+  ]
+
+
+
   // List of test specifications.
   tests: [
     {
       name: smoke1
+      build_mode: base_test
     }
     {
       name: smoke2
+      build_mode: base_test
     }
     {
       name: fire1
+      build_mode: base_test
     }
     {
       name: fire2
+      build_mode: base_test
     }
 //    {
 //      name: fire3
