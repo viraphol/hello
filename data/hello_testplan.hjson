@@ -6,7 +6,7 @@
       desc: '''test suite #1
             - just run tb'''
       milestone: V1
-      tests: ["smoke1" "smoke2" ]
+      tests: ["smoke1" "smoke2" "erupt1" ]
     }
     {
       name: testSuite2
