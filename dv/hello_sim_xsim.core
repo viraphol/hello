@@ -11,11 +11,6 @@ filesets:
       - tb/tb.sv
     file_type: systemVerilogSource
 
-  files_dv_erupt:
-    files:
-      - tb/tb_erupt.sv
-    file_type: systemVerilogSource
-
 
 targets:
   sim: &sim_target
@@ -23,16 +18,7 @@ targets:
     filesets:
       - files_rtl
       - files_dv
-      - files_dv_erupt
     default_tool: xsim
-
-  sim_erupt:
-    toplevel: tb_erupt
-    filesets:
-      - files_rtl
-      - files_dv_erupt
-    default_tool: xsim
-
 
   lint:
     <<: *sim_target
