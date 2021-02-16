@@ -7,5 +7,5 @@ VF=$REPO_TOP/bin/VeriForge
 LF=$REPO_TOP/bin/LintForge
 
 # run xsim with debugging message
-$VF --proj-root $PROJ_TOP/tests/simple --verbose=debug $PROJ_TOP/tests/simple/designs/hello/dv/hello_sim_cfg_xsim.hjson
+$VF --proj-root $PROJ_TOP/tests/simple --verbose=debug $PROJ_TOP/tests/simple/designs/yang/dv/hello_sim_cfg_xsim.hjson
 

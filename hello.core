@@ -1,5 +1,5 @@
 CAPI=2:
-name: "bci:ip:hello:0.2"
+name: "bci:ip:hello:0.3"
 description: "hello"
 filesets:
   files_rtl:

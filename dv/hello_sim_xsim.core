@@ -1,10 +1,10 @@
 CAPI=2:
-name: "bci:dv:hello:0.2"
+name: "bci:dv:hello:0.3"
 description: "hello DV sim target"
 filesets:
   files_rtl:
     depend:
-        - bci:ip:hello:0.2
+        - bci:ip:hello:0.3
 
   files_dv:
     files:
