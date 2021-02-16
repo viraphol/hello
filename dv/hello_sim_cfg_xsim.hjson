@@ -26,10 +26,6 @@
         name: base_test
         build_opts: ["{tb}"]
     }
-    {
-        name: erupt_test
-        build_opts: ["tb_erupt"]
-    }
   ]
 
   // List of test specifications.
@@ -49,10 +45,6 @@
     {
       name: fire2
       build_mode: base_test
-    }
-    {
-      name: erupt1
-      build_mode: erupt_test
     }
 //    {
 //      name: fire3
