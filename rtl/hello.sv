@@ -1,7 +1,7 @@
 
 module hello();
     initial begin
-        $display("Hello DUT git-r1");
+        $display("Hello DUT yang");
 
 /* verilator lint_off STMTDLY */
         #20 $finish();
